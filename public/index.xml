@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desert Defender Devblog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Desert Defender Devblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0 - The Prototype</title>
+      <link>http://localhost:1313/posts/0---the-prototype/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/0---the-prototype/</guid>
+      
+      <description>&lt;p&gt;Test image&lt;/p&gt;
+&lt;p&gt;!&lt;img src=&#34;http://localhost:1313/images/Pasted%20image%2020250218173734.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
