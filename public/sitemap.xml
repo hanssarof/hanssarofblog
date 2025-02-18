@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/0---the-idea/</loc>
+    <loc>https://hba.sid.one/posts/0---the-idea/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/1---the-prototype/</loc>
+    <loc>https://hba.sid.one/posts/1---the-prototype/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://hba.sid.one/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://hba.sid.one/posts/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://hba.sid.one/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://hba.sid.one/tags/</loc>
   </url>
 </urlset>
