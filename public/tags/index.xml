@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Desert Defender Devblog</title>
-    <link>https://hba.sid.one/tags/</link>
-    <description>Recent content in Tags on Desert Defender Devblog</description>
+    <title>Tags on Desert Defender blog</title>
+    <link>https://blog.desert-defender.com/tags/</link>
+    <description>Recent content in Tags on Desert Defender blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="https://hba.sid.one/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language><atom:link href="https://blog.desert-defender.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

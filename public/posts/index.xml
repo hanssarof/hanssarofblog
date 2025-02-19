@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Desert Defender Devblog</title>
-    <link>https://hba.sid.one/posts/</link>
-    <description>Recent content in Posts on Desert Defender Devblog</description>
+    <title>Posts on Desert Defender blog</title>
+    <link>https://blog.desert-defender.com/posts/</link>
+    <description>Recent content in Posts on Desert Defender blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hba.sid.one/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0 - The Idea</title>
-      <link>https://hba.sid.one/posts/0---the-idea/</link>
+      <link>https://blog.desert-defender.com/posts/0---the-idea/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hba.sid.one/posts/0---the-idea/</guid>
+      <guid>https://blog.desert-defender.com/posts/0---the-idea/</guid>
       
       <description></description>
       
@@ -20,12 +20,12 @@
     
     <item>
       <title>1 - The Prototype</title>
-      <link>https://hba.sid.one/posts/1---the-prototype/</link>
+      <link>https://blog.desert-defender.com/posts/1---the-prototype/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://hba.sid.one/posts/1---the-prototype/</guid>
+      <guid>https://blog.desert-defender.com/posts/1---the-prototype/</guid>
       
-      <description>&lt;p&gt;!&lt;img src=&#34;https://hba.sid.one/images/Pasted%20image%2020250218204407.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;!&lt;img src=&#34;https://blog.desert-defender.com/images/Pasted%20image%2020250218204407.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Yes well wtf?&lt;/p&gt;</description>
       
     </item>
