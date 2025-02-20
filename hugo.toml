@@ -105,6 +105,6 @@ name = "youtube"
 url = "https://youtube.com"
 
 [[params.socialIcons]]
-name = "Rss"
-url = "/index.xml"
+#name = "Rss"
+#url = "/index.xml"
 

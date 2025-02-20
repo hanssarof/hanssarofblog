@@ -6,7 +6,8 @@ Until now, I had only a test map with a basic terrain so I decided to dedicate s
 - One road from the North passing under a railway acting as a barrier
 - One canyon coming from the mountain on the East
 - One road coming from the West
-<img alt="center" src="Pasted image 20250220142629.png">
+
+!![Image Description](/images/Pasted%20image%2020250220142629.png)
 <p style="text-align:center;">My wonderful drawing skills of a map</p>
 
 
