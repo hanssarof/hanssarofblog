@@ -1,5 +1,5 @@
 ---
-title: 18 - Creating TinyTown map
+title: 18 - Creating the TinyTown map
 date: 2025-02-20
 ---
 Until now, I had only a test map with a basic terrain so I decided to spend some on level design. I started by drafting a map of a small town blocked in a valley and blocked by a mountain.
@@ -17,7 +17,7 @@ After the drawing, I started in Blender. I thought that it will be quicker for m
 ![Image Description](/images/Pasted%20image%2020250220082923.png)
 <p style="text-align:center;">My work in Blender using the A.N.T pluggin and the sculpting tools</p>
 
-![Image Description](/images/TinyTown.png)
+![Image Description](/images/TinyTownSmall.png)
 <p style="text-align:center;">And the result as a height map</p>
 
 Even if I am shure that the tutorial is good, I had an issue with the resolution and after importing it, the terrain was very blocky in Unreal. To fix that, I used the landscape brushes to smooth everything.

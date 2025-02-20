@@ -8,11 +8,11 @@
     <language>en-gb</language>
     <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>18 - Creating TinyTown map</title>
-      <link>https://blog.desert-defender.com/posts/18---creating-tinytown-map/</link>
+      <title>18 - Creating the TinyTown map</title>
+      <link>https://blog.desert-defender.com/posts/18---creating-the-tinytown-map/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.desert-defender.com/posts/18---creating-tinytown-map/</guid>
+      <guid>https://blog.desert-defender.com/posts/18---creating-the-tinytown-map/</guid>
       
       <description>&lt;p&gt;Until now, I had only a test map with a basic terrain so I decided to spend some on level design. I started by drafting a map of a small town blocked in a valley and blocked by a mountain.&lt;/p&gt;
 &lt;p&gt;My idea was to create a map with 3 attack paths for the snakes:&lt;/p&gt;
