@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Desert Defender blog</title>
+    <title>Desert Defender devlog</title>
     <link>https://blog.desert-defender.com/</link>
-    <description>Recent content on Desert Defender blog</description>
+    <description>Recent content on Desert Defender devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/index.xml" rel="self" type="application/rss+xml" />
@@ -14,11 +14,12 @@
       
       <guid>https://blog.desert-defender.com/posts/18---creating-tinytown-map/</guid>
       
-      <description>&lt;p&gt;Until now, I had only a test map with a basic terrain so I decided to dedicate some time to the level design. I started by drafting a map of a small town block in a desert valley. My idea was to create a map with 3 attack paths for the snakes:&lt;/p&gt;
+      <description>&lt;p&gt;Until now, I had only a test map with a basic terrain so I decided to spend some on level design. I started by drafting a map of a small town blocked in a valley and blocked by a mountain.&lt;/p&gt;
+&lt;p&gt;My idea was to create a map with 3 attack paths for the snakes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;One road from the North passing under a railway acting as a barrier&lt;/li&gt;
-&lt;li&gt;One canyon coming from the mountain on the East&lt;/li&gt;
-&lt;li&gt;One road coming from the West&lt;/li&gt;
+&lt;li&gt;One road from the north passing under a railway acting as a barrier for the player&lt;/li&gt;
+&lt;li&gt;One canyon coming to the east&lt;/li&gt;
+&lt;li&gt;One road coming from the west&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;!&lt;img src=&#34;https://blog.desert-defender.com/images/Pasted%20image%2020250220142629.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
       
