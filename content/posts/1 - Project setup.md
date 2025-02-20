@@ -1,4 +1,4 @@
 ---
-title: 1 - The Prototype
+title: 1 - Project setup
 date: 2024-09-25
 ---
