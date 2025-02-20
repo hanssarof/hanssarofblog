@@ -7,7 +7,7 @@ Until now, I had only a test map with a basic terrain so I decided to dedicate s
 - One canyon coming from the mountain on the East
 - One road coming from the West
 
-![[IMG_5499 (2).jpg]]
+!![Image Description](/images/Pasted%20image%2020250220142629.png)
 <p style="text-align:center;">My wonderful drawing skills of a map</p>
 
 
