@@ -6,26 +6,50 @@
     <description>Recent content in Posts on Desert Defender blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>0 - The Idea</title>
-      <link>https://blog.desert-defender.com/posts/0---the-idea/</link>
-      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <title>18 - Creating TinyTown map</title>
+      <link>https://blog.desert-defender.com/posts/18---creating-tinytown-map/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.desert-defender.com/posts/0---the-idea/</guid>
+      <guid>https://blog.desert-defender.com/posts/18---creating-tinytown-map/</guid>
       
-      <description>&lt;p&gt;[[1 - The Prototype]] test it yeah!&lt;/p&gt;</description>
+      <description>&lt;p&gt;!&lt;img src=&#34;https://blog.desert-defender.com/images/Pasted%20image%2020250220082923.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;!&lt;img src=&#34;https://blog.desert-defender.com/images/TinyTown.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;!&lt;img src=&#34;https://blog.desert-defender.com/images/Pasted%20image%2020250220083145.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>X - Title</title>
+      <link>https://blog.desert-defender.com/posts/2---creating-a-mesh-in-blender-creating-animations-for-idle-walk-and-jump/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.desert-defender.com/posts/2---creating-a-mesh-in-blender-creating-animations-for-idle-walk-and-jump/</guid>
+      
+      <description></description>
       
     </item>
     
     <item>
       <title>1 - The Prototype</title>
-      <link>https://blog.desert-defender.com/posts/1---the-prototype/</link>
-      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <link>https://blog.desert-defender.com/posts/1---project-setup/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.desert-defender.com/posts/1---the-prototype/</guid>
+      <guid>https://blog.desert-defender.com/posts/1---project-setup/</guid>
       
-      <description>&lt;p&gt;hehe ist the second page&lt;/p&gt;</description>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>0 - The Idea</title>
+      <link>https://blog.desert-defender.com/posts/0---from-idea-to-prototype/</link>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.desert-defender.com/posts/0---from-idea-to-prototype/</guid>
+      
+      <description></description>
       
     </item>
     
