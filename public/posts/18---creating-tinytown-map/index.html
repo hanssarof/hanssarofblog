@@ -3,12 +3,12 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">18 - Creating TinyTown map | Desert Defender blog</title>
-<meta property="og:title" content="18 - Creating TinyTown map | Desert Defender blog" />
-<meta name="twitter:title" content="18 - Creating TinyTown map | Desert Defender blog" />
-<meta itemprop="name" content="18 - Creating TinyTown map | Desert Defender blog" />
-<meta name="application-name" content="18 - Creating TinyTown map | Desert Defender blog" />
-<meta property="og:site_name" content="Desert Defender blog" />
+<title itemprop="name">18 - Creating TinyTown map | Desert Defender devlog</title>
+<meta property="og:title" content="18 - Creating TinyTown map | Desert Defender devlog" />
+<meta name="twitter:title" content="18 - Creating TinyTown map | Desert Defender devlog" />
+<meta itemprop="name" content="18 - Creating TinyTown map | Desert Defender devlog" />
+<meta name="application-name" content="18 - Creating TinyTown map | Desert Defender devlog" />
+<meta property="og:site_name" content="Desert Defender devlog" />
 
 <meta name="description" content="blog theme with light and dark mode support">
 <meta itemprop="description" content="blog theme with light and dark mode support" />
@@ -34,9 +34,9 @@
     <meta property="og:url" content="https://blog.desert-defender.com/posts/18---creating-tinytown-map/" />
 
     
-    <meta property="og:article:author" content="Hans Sarof" />
-    <meta property="article:author" content="Hans Sarof" />
-    <meta name="author" content="Hans Sarof" />
+    <meta property="og:article:author" content="Prokrastination Studio" />
+    <meta property="article:author" content="Prokrastination Studio" />
+    <meta name="author" content="Prokrastination Studio" />
     
     
 
@@ -53,7 +53,7 @@
         },
         "datePublished": "2025-02-20",
         "description": "",
-        "wordCount":  91 ,
+        "wordCount":  267 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-02-20",
         "image": {
@@ -62,7 +62,7 @@
         },
         "publisher": {
         "@type": "Organization",
-        "name": "Desert Defender blog"
+        "name": "Desert Defender devlog"
         }
     }
     </script>
@@ -72,10 +72,11 @@
 
     
     <meta property="og:url" content="https://blog.desert-defender.com/posts/18---creating-tinytown-map/">
-  <meta property="og:site_name" content="Desert Defender blog">
+  <meta property="og:site_name" content="Desert Defender devlog">
   <meta property="og:title" content="18 - Creating TinyTown map">
-  <meta property="og:description" content="Until now, I had only a test map with a basic terrain so I decided to dedicate some time to the level design. I started by drafting a map of a small town block in a desert valley. My idea was to create a map with 3 attack paths for the snakes:
-One road from the North passing under a railway acting as a barrier One canyon coming from the mountain on the East One road coming from the West !">
+  <meta property="og:description" content="Until now, I had only a test map with a basic terrain so I decided to spend some on level design. I started by drafting a map of a small town blocked in a valley and blocked by a mountain.
+My idea was to create a map with 3 attack paths for the snakes:
+One road from the north passing under a railway acting as a barrier for the player One canyon coming to the east One road coming from the west !">
   <meta property="og:locale" content="en_gb">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -87,8 +88,9 @@ One road from the North passing under a railway acting as a barrier One canyon c
     
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="18 - Creating TinyTown map">
-  <meta name="twitter:description" content="Until now, I had only a test map with a basic terrain so I decided to dedicate some time to the level design. I started by drafting a map of a small town block in a desert valley. My idea was to create a map with 3 attack paths for the snakes:
-One road from the North passing under a railway acting as a barrier One canyon coming from the mountain on the East One road coming from the West !">
+  <meta name="twitter:description" content="Until now, I had only a test map with a basic terrain so I decided to spend some on level design. I started by drafting a map of a small town blocked in a valley and blocked by a mountain.
+My idea was to create a map with 3 attack paths for the snakes:
+One road from the north passing under a railway acting as a barrier for the player One canyon coming to the east One road coming from the west !">
 
 
     
@@ -196,18 +198,24 @@ stroke-linejoin="round" class="feather feather-home">
         <nav id="TableOfContents"></nav>
     </details>
             <div class="page-content">
-                <p>Until now, I had only a test map with a basic terrain so I decided to dedicate some time to the level design. I started by drafting a map of a small town block in a desert valley. My idea was to create a map with 3 attack paths for the snakes:</p>
+                <p>Until now, I had only a test map with a basic terrain so I decided to spend some on level design. I started by drafting a map of a small town blocked in a valley and blocked by a mountain.</p>
+<p>My idea was to create a map with 3 attack paths for the snakes:</p>
 <ul>
-<li>One road from the North passing under a railway acting as a barrier</li>
-<li>One canyon coming from the mountain on the East</li>
-<li>One road coming from the West</li>
+<li>One road from the north passing under a railway acting as a barrier for the player</li>
+<li>One canyon coming to the east</li>
+<li>One road coming from the west</li>
 </ul>
 <p>!<img src="/images/Pasted%20image%2020250220142629.png" alt="Image Description"></p>
-<p style="text-align:center;">My wonderful drawing skills of a map</p>
+<p style="text-align:center;">My wonderful drawing skills of a map: a first sketch</p>
+<p>After the drawing, I started in Blender. I thought that it will be quicker for me to sculpt the map and then export it to Unreal. To do so, I followed a video made by jimmyXR: <a href="https://www.youtube.com/watch?v=-nHf90jt064">Level Up Your Landscapes in UE5 with Blender A.N.T. Landscapes</a>. Is uses the A.N.T pluggin for blender to create the map and then import it as a height map in Unreal.</p>
 <p>!<img src="/images/Pasted%20image%2020250220082923.png" alt="Image Description"></p>
+<p style="text-align:center;">My work in Blender using the A.N.T pluggin and the sculpting tools</p>
 <p>!<img src="/images/TinyTown.png" alt="Image Description"></p>
+<p style="text-align:center;">And the result as a height map</p>
+<p>Even if I am shure that the tutorial is good, I had an issue with the resolution and after importing it, the terrain was very blocky in Unreal. To fix that, I used the landscape brushes to smooth everything.</p>
+<p>Also, the proportions in Blender were not as great as in the game. I take probably arount an hour to adjust the roads, the town terrain, the canyon and so on. After applying a basic color material, here is the final result:</p>
 <p>!<img src="/images/Pasted%20image%2020250220083145.png" alt="Image Description"></p>
-
+<p style="text-align:center;">The result in Unreal</p>
             </div>
         </article></main>
 </div>
@@ -232,7 +240,7 @@ stroke-linejoin="round" class="feather feather-home">
 </a>
 </div>
     <small class="footer_copyright">
-        © 2025 Hans Sarof.
+        © 2025 Prokrastination Studio.
         Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
     </small>
 </footer><a href="#" title="Go to top" id="totop">

@@ -1,4 +1,4 @@
-title = "Desert Defender blog"
+title = "Desert Defender devlog"
 baseURL = 'https://blog.desert-defender.com'
 
 # This is what goes in <html lang="">
@@ -48,7 +48,7 @@ theme = "hugo-blog-awesome"
     weight = 20
 
 [Languages.en-gb.params]
-  sitename = "Desert Defender blog"
+  sitename = "Desert Defender devlog"
   defaultColor = "auto" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -73,8 +73,8 @@ theme = "hugo-blog-awesome"
 [Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Desert Defender blog"
-  name = "Hans Sarof"
+  intro = "Desert Defender devlog"
+  name = "Prokrastination Studio"
   description = "I am working on an indie game called Desert Defender using the Unreal Engine 5. This is my blog website to track down and share the progress on my adventure."
 
 # Allow to override webmanifest options
