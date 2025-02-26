@@ -8,3 +8,6 @@ To remedy this, I decided to get around it with the simplest possible solution: 
 
 <p style="text-align:center;"><img src="/images/New%20SpawnActor%20function.svg" alt="Image Description"></p>
 <p style="text-align:center; font-style:italic;">Comparison of the two SpawnActor functions</p>
+
+<p style="text-align:center;"><img src="/images/Pasted%20image%2020250226173713.png" alt="Image Description"></p>
+<p style="text-align:center; font-style:italic;">Old versus target animations on spawn</p>
