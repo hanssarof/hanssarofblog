@@ -6,7 +6,19 @@
     <description>Recent content on Desert Defender devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20 - Thinking on the game loop and starting the UI</title>
+      <link>https://blog.desert-defender.com/posts/20---thinking-on-the-game-loop-and-starting-the-ui/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.desert-defender.com/posts/20---thinking-on-the-game-loop-and-starting-the-ui/</guid>
+      
+      <description>&lt;p&gt;So far, I have been working on the game without taking the time to write down the logic of the game loop. But without it, it is not possible to start working on the GameState or on the UI.&lt;/p&gt;
+&lt;p&gt;So, I started by drawing a diagram with a basic color scheme: white background means I am sure about the step, yellow means it will be in the game but I don&amp;rsquo;t know exactly how it will be setup and red means that I am not sure about the step so it is not a priority as this point. For exemple in the picture bellow, working on a story introduction video or on some kind of items store does not make any sense for the moment.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>19 - Unsyncing ennemies animations on spawn</title>
       <link>https://blog.desert-defender.com/posts/19---unsyncing-ennemies-animations-on-spawn/</link>

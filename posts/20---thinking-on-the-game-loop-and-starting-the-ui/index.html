@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Posts | Desert Defender devlog</title>
-<meta property="og:title" content="Posts | Desert Defender devlog" />
-<meta name="twitter:title" content="Posts | Desert Defender devlog" />
-<meta itemprop="name" content="Posts | Desert Defender devlog" />
-<meta name="application-name" content="Posts | Desert Defender devlog" />
+<title itemprop="name">20 - Thinking on the game loop and starting the UI | Desert Defender devlog</title>
+<meta property="og:title" content="20 - Thinking on the game loop and starting the UI | Desert Defender devlog" />
+<meta name="twitter:title" content="20 - Thinking on the game loop and starting the UI | Desert Defender devlog" />
+<meta itemprop="name" content="20 - Thinking on the game loop and starting the UI | Desert Defender devlog" />
+<meta name="application-name" content="20 - Thinking on the game loop and starting the UI | Desert Defender devlog" />
 <meta property="og:site_name" content="Desert Defender devlog" />
 
 <meta name="description" content="blog theme with light and dark mode support">
@@ -18,20 +18,12 @@
 <meta property="og:locale" content="en-gb" />
 <meta name="language" content="en-gb" />
 
-  <link rel="alternate" hreflang="en-gb" href="https://blog.desert-defender.com/posts/" title="English" />
+  <link rel="alternate" hreflang="en-gb" href="https://blog.desert-defender.com/posts/20---thinking-on-the-game-loop-and-starting-the-ui/" title="English" />
 
 
 
 
 
-    
-    
-    
-    
-    
-    <link rel="first" href="/posts/" />
-    <link rel="last" href="/posts/" />
-    
     
     
     
@@ -39,7 +31,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:article:published_time" content=2025-02-26T00:00:00Z />
     <meta property="article:published_time" content=2025-02-26T00:00:00Z />
-    <meta property="og:url" content="https://blog.desert-defender.com/posts/" />
+    <meta property="og:url" content="https://blog.desert-defender.com/posts/20---thinking-on-the-game-loop-and-starting-the-ui/" />
 
     
     <meta property="og:article:author" content="Prokrastination Studio" />
@@ -54,14 +46,14 @@
     {
         "@context": "http://schema.org",
         "@type": "Article",
-        "headline": "Posts",
+        "headline": "20 - Thinking on the game loop and starting the UI",
         "author": {
         "@type": "Person",
         "name": ""
         },
         "datePublished": "2025-02-26",
         "description": "",
-        "wordCount":  0 ,
+        "wordCount":  184 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-02-26",
         "image": {
@@ -79,26 +71,29 @@
 <meta name="generator" content="Hugo 0.144.0">
 
     
-    <meta property="og:url" content="https://blog.desert-defender.com/posts/">
+    <meta property="og:url" content="https://blog.desert-defender.com/posts/20---thinking-on-the-game-loop-and-starting-the-ui/">
   <meta property="og:site_name" content="Desert Defender devlog">
-  <meta property="og:title" content="Posts">
-  <meta property="og:description" content="blog theme with light and dark mode support">
+  <meta property="og:title" content="20 - Thinking on the game loop and starting the UI">
+  <meta property="og:description" content="So far, I have been working on the game without taking the time to write down the logic of the game loop. But without it, it is not possible to start working on the GameState or on the UI.
+So, I started by drawing a diagram with a basic color scheme: white background means I am sure about the step, yellow means it will be in the game but I don’t know exactly how it will be setup and red means that I am not sure about the step so it is not a priority as this point. For exemple in the picture bellow, working on a story introduction video or on some kind of items store does not make any sense for the moment.">
   <meta property="og:locale" content="en_gb">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-26T00:00:00+00:00">
 
 
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Posts">
-  <meta name="twitter:description" content="blog theme with light and dark mode support">
+  <meta name="twitter:title" content="20 - Thinking on the game loop and starting the UI">
+  <meta name="twitter:description" content="So far, I have been working on the game without taking the time to write down the logic of the game loop. But without it, it is not possible to start working on the GameState or on the UI.
+So, I started by drawing a diagram with a basic color scheme: white background means I am sure about the step, yellow means it will be in the game but I don’t know exactly how it will be setup and red means that I am not sure about the step so it is not a priority as this point. For exemple in the picture bellow, working on a story introduction video or on some kind of items store does not make any sense for the moment.">
 
 
     
 
-    <link rel="canonical" href="https://blog.desert-defender.com/posts/">
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Desert Defender devlog">
-    <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="Desert Defender devlog">
+    <link rel="canonical" href="https://blog.desert-defender.com/posts/20---thinking-on-the-game-loop-and-starting-the-ui/">
     <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
     <link href="/code-highlight.min.6c86d7ba6dd5ebc08da8bbbf69ebee740c5ee01e46ea124115edefef51775bfa.css" rel="stylesheet">
 
@@ -180,133 +175,31 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Posts</h1>
-    </header>
+
+<div class="wrapper post">
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">2025</h2>
+        <article>
+            <header class="header">
+                <h1 class="header-title">20 - Thinking on the game loop and starting the UI</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2025-02-26T00:00:00&#43;00:00" itemprop="datePublished"> 26 Feb 2025 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>So far, I have been working on the game without taking the time to write down the logic of the game loop. But without it, it is not possible to start working on the GameState or on the UI.</p>
+<p>So, I started by drawing a diagram with a basic color scheme: white background means I am sure about the step, yellow means it will be in the game but I don&rsquo;t know exactly how it will be setup and red means that I am not sure about the step so it is not a priority as this point. For exemple in the picture bellow, working on a story introduction video or on some kind of items store does not make any sense for the moment.</p>
+<p style="text-align:center;"><img src="/images/Game%20loop%20logic.svg" alt="Image Description"></p>
+<p>This image gave me a clear idea of the areas where I need to brainstorm but also where I can already start working. On one hand, I need to focus on the game loop so I can begin playing with the GameState in Unreal. On the other hand, I can already start designing the UI and the main menu.</p>
 
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/20---thinking-on-the-game-loop-and-starting-the-ui/">20 - Thinking on the game loop and starting the UI</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-02-26T00:00:00Z">
-        26 Feb 2025
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/19---unsyncing-ennemies-animations-on-spawn/">19 - Unsyncing ennemies animations on spawn</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-02-25T00:00:00Z">
-        25 Feb 2025
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/18---creating-the-tinytown-map/">18 - Creating the TinyTown map</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2025-02-20T00:00:00Z">
-        20 Feb 2025
-        
-    </time>
-</article>
-
-
-         
-
-        
-        
-        <h2 class="post-year">2024</h2>
-
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/2---creating-a-mesh-in-blender-creating-animations-for-idle-walk-and-jump/">2 - Creating a mesh in blender, creating animations for idle, walk and jump</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2024-09-26T00:00:00Z">
-        26 Sep 2024
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/1---project-setup/">1 - Project setup</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2024-09-25T00:00:00Z">
-        25 Sep 2024
-        
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/0---from-idea-to-prototype/">0 - From idea to prototype</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2024-09-18T00:00:00Z">
-        18 Sep 2024
-        
-    </time>
-</article>
-
-
-         
-
-         
-
-    </main>
-</div><footer class="footer">
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
