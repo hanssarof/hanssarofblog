@@ -18,7 +18,7 @@ In Unreal, I created a basic level called MainMenu. In the level in copied the s
 
 In the WBP_MainMenu I created a canvas panel with a vertical box and four buttons for "Start", "Shop", "Options" and "Quit". On button "Quit" pressed, I added the QuitMenu with a horizontal box with buttons for "Yes" or "No" and a question: "Are you sure you want to quit?". I also set the visibility logic to move from the MainMenu to QuitMenu back and forth. And for the "Start" button I used the OpenLevel function with the TinyTown map as LevelName.
 
-<p style="text-align:center;"><img src="/images/Pasted%20image%2020250301172212.png" alt="Image Description"></p>
+<p style="text-align:center;"><img src="/images/Pasted%20image%2020250305095833.png" alt="Image Description"></p>
 <p style="text-align:center; font-style:italic;">The current state of the menu</p>
 
 
