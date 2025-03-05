@@ -8,13 +8,14 @@
     <language>en-gb</language>
     <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>21 - PutAwayWeapon montage, ShowHideWeapon action and AnimBP</title>
-      <link>https://blog.desert-defender.com/posts/21---putawayweapon-montage-showhideweapon-action-and-animbp/</link>
+      <title>21 - PutAwayWeapon montage, show, hide and switch equipped weapon actions and AnimBP</title>
+      <link>https://blog.desert-defender.com/posts/21---putawayweapon-montage-show-hide-and-switch-equipped-weapon-actions-and-animbp/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.desert-defender.com/posts/21---putawayweapon-montage-showhideweapon-action-and-animbp/</guid>
+      <guid>https://blog.desert-defender.com/posts/21---putawayweapon-montage-show-hide-and-switch-equipped-weapon-actions-and-animbp/</guid>
       
-      <description></description>
+      <description>&lt;p&gt;I have already implemented the ability for the coyote to pick up a weapon. When he does, he can no longer walk on all fours, and his MaxWalk speed is reduced. This makes it harder to escape from the snakes chasing the player, and it leaves only a short window to benefit from the increased speed before picking up a weapon.&lt;/p&gt;
+&lt;p&gt;To offer better gameplay, I have had the idea from the very beginning to allow the player to holster or put away the weapon and return to an Unequipped state. The player would then be able to take the weapon from coyote back to shoot again, or switch weapons if a secondary weapon is equipped. As in a game like Apex Legends, I wanted to separate the controls for these actions: one key to show or hide the weapon, and the mouse wheel to switch between weapons.&lt;/p&gt;</description>
       
     </item>
     
