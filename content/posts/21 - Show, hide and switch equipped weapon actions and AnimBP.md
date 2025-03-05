@@ -1,5 +1,5 @@
 ---
-title: 21 - PutAwayWeapon montage, show, hide and switch equipped weapon actions and AnimBP
+title: 21 - Show, hide and switch equipped weapon actions and AnimBP
 date: 2025-03-02
 ---
 I have already implemented the ability for the coyote to pick up a weapon. When he does, he can no longer walk on all fours, and his MaxWalk speed is reduced. This makes it harder to escape from the snakes chasing the player, and it leaves only a short window to benefit from the increased speed before picking up a weapon.
@@ -14,7 +14,7 @@ To do so, I started by creating an animation in Blender, importing it into Unrea
 <p style="text-align:center;"><img src="/images/PutAwayWeapon%201.gif" alt="Image Description"></p>
 <p style="text-align:center; font-style:italic;">My PutAwayWeapon animation in Blender</p>
 
-Then, I added the actions and functions to the Character and make them call the CombatComponent to do the following:
+Then, I added the actions and functions to the Character and made them call the CombatComponent to do the following:
 - Set aiming to false (simple precaution)
 - Make the character play the PutAwayMontage
 - Make the character equipped or uneqquiped
