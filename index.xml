@@ -6,7 +6,18 @@
     <description>Recent content on Desert Defender devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>21 - PutAwayWeapon montage, ShowHideWeapon action and AnimBP</title>
+      <link>https://blog.desert-defender.com/posts/21---putawayweapon-montage-showhideweapon-action-and-animbp/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.desert-defender.com/posts/21---putawayweapon-montage-showhideweapon-action-and-animbp/</guid>
+      
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>20 - Thinking on the game loop and starting the UI</title>
       <link>https://blog.desert-defender.com/posts/20---thinking-on-the-game-loop-and-starting-the-ui/</link>
