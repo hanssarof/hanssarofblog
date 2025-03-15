@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.desert-defender.com/posts/21---show-hide-and-switch-equipped-weapon-actions-and-animbp/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+    <loc>https://blog.desert-defender.com/posts/22---gamemode-logic-win-or-defeat-score-and-ui/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.desert-defender.com/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.desert-defender.com/posts/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.desert-defender.com/posts/21---show-hide-and-switch-equipped-weapon-actions-and-animbp/</loc>
     <lastmod>2025-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.desert-defender.com/posts/20---thinking-on-the-game-loop-and-starting-the-ui/</loc>
@@ -25,9 +28,6 @@
   </url><url>
     <loc>https://blog.desert-defender.com/posts/1---project-setup/</loc>
     <lastmod>2024-09-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.desert-defender.com/posts/0---from-idea-to-prototype/</loc>
-    <lastmod>2024-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.desert-defender.com/categories/</loc>
   </url><url>
