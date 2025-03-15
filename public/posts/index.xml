@@ -6,7 +6,25 @@
     <description>Recent content in Posts on Desert Defender devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>22 - GameMode logic, win or defeat, score and UI</title>
+      <link>https://blog.desert-defender.com/posts/22---gamemode-logic-win-or-defeat-score-and-ui/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.desert-defender.com/posts/22---gamemode-logic-win-or-defeat-score-and-ui/</guid>
+      
+      <description>&lt;p&gt;After my detour through the weapon actions, I returned to the game loop logic. I started by creating a &lt;code&gt;DesertDefenderGameMode&lt;/code&gt; class and used it for the TinyTown level. I added four functions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ActivateSpawners()&lt;/code&gt;, called from &lt;code&gt;PostLogin()&lt;/code&gt;, to manage &lt;code&gt;SpawnPoints&lt;/code&gt; and introduce a warmup delay before starting fight snakes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PlayerEliminated()&lt;/code&gt;, which sends the player back to the MainMenu map when he is killed by the snakes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BasePointDestroyed()&lt;/code&gt;, which sends the player back to the MainMenu map when the base is destroyed by the snakes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PlayerWon()&lt;/code&gt;, which sends the player back to the MainMenu map when he wins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;img src=&#34;https://blog.desert-defender.com/images/2025-03-15_19h03_16.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>21 - Show, hide and switch equipped weapon actions and AnimBP</title>
       <link>https://blog.desert-defender.com/posts/21---show-hide-and-switch-equipped-weapon-actions-and-animbp/</link>
@@ -78,17 +96,6 @@
       <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>https://blog.desert-defender.com/posts/1---project-setup/</guid>
-      
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>0 - From idea to prototype</title>
-      <link>https://blog.desert-defender.com/posts/0---from-idea-to-prototype/</link>
-      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.desert-defender.com/posts/0---from-idea-to-prototype/</guid>
       
       <description></description>
       
