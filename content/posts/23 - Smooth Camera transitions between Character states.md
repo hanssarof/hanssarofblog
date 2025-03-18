@@ -6,7 +6,7 @@ I have spend few hours to fix camera transitions. Previously, I have established
 
 To fix this, and to have my camera code in one place, I created a `InterpCameraArmLength` function using `FInterpTo` and `DeltaTime`. The function is called in the `TickComponent` an changes camera arm length continuously.
 
-![[2025-03-18_13h52_46.png#ce]]
+<p style="text-align:center;"><img src="/images/2025-03-18_13h52_46.png" alt="Image Description"></p>
 <p style="text-align:center; font-style:italic;">The InterpCameraArmLength function called in TickComponent.</p>
 
 For the moment, the function is still based on boolean combinations. In the future, I might use an enum to simplify how I handle character states. 
