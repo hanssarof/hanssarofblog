@@ -80,6 +80,18 @@
     </item>
     
     <item>
+      <title>23 - Smooth Camera transitions between Character states</title>
+      <link>https://blog.desert-defender.com/posts/23---smooth-camera-transitions-between-character-states/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.desert-defender.com/posts/23---smooth-camera-transitions-between-character-states/</guid>
+      
+      <description>&lt;p&gt;I have spend few hours to fix camera transitions. Previously, I have established three lengths for the character camera arm based on if the character is unequipped, equipped or equipped and aiming. I was changing those values in the &lt;code&gt;Equip&lt;/code&gt; and &lt;code&gt;HideOrShowEquippedWeapon&lt;/code&gt; functions of the &lt;code&gt;CombatComponent&lt;/code&gt;. Also, I was just setting those values without transition resulting in a shaky gameplay.&lt;/p&gt;
+&lt;p&gt;To fix this, and to have my camera code in one place, I created a &lt;code&gt;InterpCameraArmLength&lt;/code&gt; function using &lt;code&gt;FInterpTo&lt;/code&gt; and &lt;code&gt;DeltaTime&lt;/code&gt;. The function is called in the &lt;code&gt;TickComponent&lt;/code&gt; an changes camera arm length continuously.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>2 - Creating a mesh in blender, creating animations for idle, walk and jump</title>
       <link>https://blog.desert-defender.com/posts/2---creating-a-mesh-in-blender-creating-animations-for-idle-walk-and-jump/</link>
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
