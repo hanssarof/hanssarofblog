@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">23 - Smooth Camera transitions between Character states | Desert Defender devlog</title>
-<meta property="og:title" content="23 - Smooth Camera transitions between Character states | Desert Defender devlog" />
-<meta name="twitter:title" content="23 - Smooth Camera transitions between Character states | Desert Defender devlog" />
-<meta itemprop="name" content="23 - Smooth Camera transitions between Character states | Desert Defender devlog" />
-<meta name="application-name" content="23 - Smooth Camera transitions between Character states | Desert Defender devlog" />
+<title itemprop="name">23 - Smooth camera transitions between character states | Desert Defender devlog</title>
+<meta property="og:title" content="23 - Smooth camera transitions between character states | Desert Defender devlog" />
+<meta name="twitter:title" content="23 - Smooth camera transitions between character states | Desert Defender devlog" />
+<meta itemprop="name" content="23 - Smooth camera transitions between character states | Desert Defender devlog" />
+<meta name="application-name" content="23 - Smooth camera transitions between character states | Desert Defender devlog" />
 <meta property="og:site_name" content="Desert Defender devlog" />
 
 <meta name="description" content="blog theme with light and dark mode support">
@@ -46,7 +46,7 @@
     {
         "@context": "http://schema.org",
         "@type": "Article",
-        "headline": "23 - Smooth Camera transitions between Character states",
+        "headline": "23 - Smooth camera transitions between character states",
         "author": {
         "@type": "Person",
         "name": ""
@@ -73,8 +73,8 @@
     
     <meta property="og:url" content="https://blog.desert-defender.com/posts/23---smooth-camera-transitions-between-character-states/">
   <meta property="og:site_name" content="Desert Defender devlog">
-  <meta property="og:title" content="23 - Smooth Camera transitions between Character states">
-  <meta property="og:description" content="I have spend few hours to fix camera transitions. Previously, I have established three lengths for the character camera arm based on if the character is unequipped, equipped or equipped and aiming. I was changing those values in the Equip and HideOrShowEquippedWeapon functions of the CombatComponent. Also, I was just setting those values without transition resulting in a shaky gameplay.
+  <meta property="og:title" content="23 - Smooth camera transitions between character states">
+  <meta property="og:description" content="Today I spend few hours to fix camera transitions. Previously, I have established three lengths for the character camera arm based on if the character is unequipped, equipped or equipped and aiming. I was changing those values in the Equip and HideOrShowEquippedWeapon functions of the CombatComponent. Also, I was just setting those values without transition resulting in a shaky gameplay.
 To fix this, and to have my camera code in one place, I created a InterpCameraArmLength function using FInterpTo and DeltaTime. The function is called in the TickComponent an changes camera arm length continuously.">
   <meta property="og:locale" content="en_gb">
   <meta property="og:type" content="article">
@@ -86,8 +86,8 @@ To fix this, and to have my camera code in one place, I created a InterpCameraAr
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="23 - Smooth Camera transitions between Character states">
-  <meta name="twitter:description" content="I have spend few hours to fix camera transitions. Previously, I have established three lengths for the character camera arm based on if the character is unequipped, equipped or equipped and aiming. I was changing those values in the Equip and HideOrShowEquippedWeapon functions of the CombatComponent. Also, I was just setting those values without transition resulting in a shaky gameplay.
+  <meta name="twitter:title" content="23 - Smooth camera transitions between character states">
+  <meta name="twitter:description" content="Today I spend few hours to fix camera transitions. Previously, I have established three lengths for the character camera arm based on if the character is unequipped, equipped or equipped and aiming. I was changing those values in the Equip and HideOrShowEquippedWeapon functions of the CombatComponent. Also, I was just setting those values without transition resulting in a shaky gameplay.
 To fix this, and to have my camera code in one place, I created a InterpCameraArmLength function using FInterpTo and DeltaTime. The function is called in the TickComponent an changes camera arm length continuously.">
 
 
@@ -95,7 +95,7 @@ To fix this, and to have my camera code in one place, I created a InterpCameraAr
 
     <link rel="canonical" href="https://blog.desert-defender.com/posts/23---smooth-camera-transitions-between-character-states/">
     <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
-    <link href="/code-highlight.min.efb993776a4f52d15ee74d0b186c0cb5d728d5aebe3fa24edeea8c2190577329.css" rel="stylesheet">
+    <link href="/code-highlight.min.9f789f4cd8418460ac63f33b939dbbe9e0cd5684811d301f7e74fea13f030925.css" rel="stylesheet">
 
     
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
@@ -180,7 +180,7 @@ stroke-linejoin="round" class="feather feather-home">
     <main class="page-content" aria-label="Content">
         <article>
             <header class="header">
-                <h1 class="header-title">23 - Smooth Camera transitions between Character states</h1>
+                <h1 class="header-title">23 - Smooth camera transitions between character states</h1>
                 
                 
                 
@@ -191,7 +191,7 @@ stroke-linejoin="round" class="feather feather-home">
             </header>
             
             <div class="page-content">
-                <p>I have spend few hours to fix camera transitions. Previously, I have established three lengths for the character camera arm based on if the character is unequipped, equipped or equipped and aiming. I was changing those values in the <code>Equip</code> and <code>HideOrShowEquippedWeapon</code> functions of the <code>CombatComponent</code>. Also, I was just setting those values without transition resulting in a shaky gameplay.</p>
+                <p>Today I spend few hours to fix camera transitions. Previously, I have established three lengths for the character camera arm based on if the character is unequipped, equipped or equipped and aiming. I was changing those values in the <code>Equip</code> and <code>HideOrShowEquippedWeapon</code> functions of the <code>CombatComponent</code>. Also, I was just setting those values without transition resulting in a shaky gameplay.</p>
 <p>To fix this, and to have my camera code in one place, I created a <code>InterpCameraArmLength</code> function using <code>FInterpTo</code> and <code>DeltaTime</code>. The function is called in the <code>TickComponent</code> an changes camera arm length continuously.</p>
 <p style="text-align:center;"><img src="/images/2025-03-18_13h52_46.png" alt="Image Description"></p>
 <p style="text-align:center; font-style:italic;">The InterpCameraArmLength function called in TickComponent.</p>
