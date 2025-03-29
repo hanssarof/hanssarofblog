@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Desert Defender devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.desert-defender.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>25 - Terrain material V2, changing light again, trusting Nanite and Lumen for rendering settings</title>
+      <link>https://blog.desert-defender.com/posts/25---terrain-material-v2-changing-light-again-trusting-nanite-and-lumen-for-rendering-settings/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.desert-defender.com/posts/25---terrain-material-v2-changing-light-again-trusting-nanite-and-lumen-for-rendering-settings/</guid>
+      
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>24 - Gameplay Framework, Instance, Save, Mode and other stuff</title>
       <link>https://blog.desert-defender.com/posts/24---gameplay-framework-instance-save-mode-and-other-stuff/</link>
@@ -100,17 +111,6 @@
 &lt;li&gt;One road coming from the west&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p style=&#34;text-align:center;&#34;&gt;&lt;img src=&#34;https://blog.desert-defender.com/images/Pasted%20image%2020250220142629.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>25 - Terrain material V2, changing light again, trusting Nanite and Lumen for rendering settings</title>
-      <link>https://blog.desert-defender.com/posts/25---terrain-material-v2-changing-light-again-trusting-nanite-and-lumen-for-rendering-settings/</link>
-      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.desert-defender.com/posts/25---terrain-material-v2-changing-light-again-trusting-nanite-and-lumen-for-rendering-settings/</guid>
-      
-      <description></description>
       
     </item>
     
