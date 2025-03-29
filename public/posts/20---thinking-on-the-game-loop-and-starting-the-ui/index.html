@@ -53,7 +53,7 @@
         },
         "datePublished": "2025-02-26",
         "description": "",
-        "wordCount":  354 ,
+        "wordCount":  355 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-02-26",
         "image": {
@@ -95,7 +95,7 @@ So, I started by drawing a diagram with a basic color scheme: white background m
 
     <link rel="canonical" href="https://blog.desert-defender.com/posts/20---thinking-on-the-game-loop-and-starting-the-ui/">
     <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
-    <link href="/code-highlight.min.efb993776a4f52d15ee74d0b186c0cb5d728d5aebe3fa24edeea8c2190577329.css" rel="stylesheet">
+    <link href="/code-highlight.min.9f789f4cd8418460ac63f33b939dbbe9e0cd5684811d301f7e74fea13f030925.css" rel="stylesheet">
 
     
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
@@ -191,15 +191,15 @@ stroke-linejoin="round" class="feather feather-home">
             </header>
             
             <div class="page-content">
-                <p>So far, I have been working on the game without taking the time to write down the logic of the game loop. But without it, it is not possible to start working on the GameState or on the UI.</p>
+                <p>So far, I have been working on the game without taking the time to write down the logic of the game loop. But without it, it is not possible to start working on the <code>GameState</code> or on the UI.</p>
 <p>So, I started by drawing a diagram with a basic color scheme: white background means I am sure about the step, yellow means it will be in the game but I don&rsquo;t know exactly how it will be setup and red means that I am not sure about the step so it is not a priority as this point. For exemple in the picture bellow, working on a story introduction video or on some kind of items store does not make any sense for the moment.</p>
 <p style="text-align:center;"><img src="/images/Game%20loop%20logic.svg" alt="Image Description"></p>
-<p style="text-align:center; font-style:italic;">My first iteration on the game logic</p>
-<p>This image gave me a clear idea of the areas where I need to brainstorm but also where I can already start working. On one hand, I need to focus on the game loop so I can begin playing with the GameState in Unreal. On the other hand, I can already start designing the UI and the main menu.</p>
-<p>In Unreal, I created a basic level called MainMenu. In the level in copied the sky and the lights parameters from the TinyTown map to have same ambiance when I position a main menu scene. Then, I created a user widget blueprint called WBP_MainMenu and in the level blueprint I added it to the game on BeginPlay. I also set the input mode to UI only.</p>
+<p style="text-align:center; font-style:italic;">My first iteration on the game loop</p>
+<p>This image gave me a clear idea of the areas where I need to brainstorm but also where I can already start working. On one hand, I need to focus on the game loop so I can begin playing with the <code>GameState</code> in Unreal. On the other hand, I can already start designing the UI and the main menu.</p>
+<p>In Unreal, I created a basic level called MainMenu. In the level in copied the sky and the lights parameters from the TinyTown map to have the same ambiance when I position a main menu scene. Then, I created a user widget blueprint called <code>WBP_MainMenu</code> and in the level blueprint I added it to the game on <code>BeginPlay</code>. I also set the input mode to UI only.</p>
 <p style="text-align:center;"><img src="/images/Pasted%20image%2020250301171421.png" alt="Image Description"></p>
 <p style="text-align:center; font-style:italic;">The MainMenu level brueprint adding the WPB_MainMenu to the screen</p>
-<p>In the WBP_MainMenu I created a canvas panel with a vertical box and four buttons for &ldquo;Start&rdquo;, &ldquo;Shop&rdquo;, &ldquo;Options&rdquo; and &ldquo;Quit&rdquo;. On button &ldquo;Quit&rdquo; pressed, I added the QuitMenu with a horizontal box with buttons for &ldquo;Yes&rdquo; or &ldquo;No&rdquo; and a question: &ldquo;Are you sure you want to quit?&rdquo;. I also set the visibility logic to move from the MainMenu to QuitMenu back and forth. And for the &ldquo;Start&rdquo; button I used the OpenLevel function with the TinyTown map as LevelName.</p>
+<p>In the <code>WBP_MainMenu</code> I created a canvas panel with a vertical box and four buttons for &ldquo;Start&rdquo;, &ldquo;Shop&rdquo;, &ldquo;Options&rdquo; and &ldquo;Quit&rdquo;. On button &ldquo;Quit&rdquo; pressed, I added the QuitMenu with a horizontal box with buttons for &ldquo;Yes&rdquo; or &ldquo;No&rdquo; and a question: &ldquo;Are you sure you want to quit?&rdquo;. I also set the visibility logic to move from the MainMenu to QuitMenu back and forth. And for the &ldquo;Start&rdquo; button I used the <code>OpenLevel</code> function with the TinyTown map as LevelName.</p>
 <p style="text-align:center;"><img src="/images/Pasted%20image%2020250305095833.png" alt="Image Description"></p>
 <p style="text-align:center; font-style:italic;">The current state of the menu</p>
 

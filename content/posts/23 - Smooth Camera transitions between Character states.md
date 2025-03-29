@@ -1,8 +1,8 @@
 ---
-title: 23 - Smooth Camera transitions between Character states
+title: 23 - Smooth camera transitions between character states
 date: 2025-03-16
 ---
-I have spend few hours to fix camera transitions. Previously, I have established three lengths for the character camera arm based on if the character is unequipped, equipped or equipped and aiming. I was changing those values in the `Equip` and `HideOrShowEquippedWeapon` functions of the `CombatComponent`. Also, I was just setting those values without transition resulting in a shaky gameplay.
+Today I spend few hours to fix camera transitions. Previously, I have established three lengths for the character camera arm based on if the character is unequipped, equipped or equipped and aiming. I was changing those values in the `Equip` and `HideOrShowEquippedWeapon` functions of the `CombatComponent`. Also, I was just setting those values without transition resulting in a shaky gameplay.
 
 To fix this, and to have my camera code in one place, I created a `InterpCameraArmLength` function using `FInterpTo` and `DeltaTime`. The function is called in the `TickComponent` an changes camera arm length continuously.
 

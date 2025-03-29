@@ -26,6 +26,6 @@ Finally, I added a function in the `GameMode` so when the player score is higher
 In summary, now:
 1. Snake is killed and calls `TakeDamage()`
 2. The function calls `UpdatePlayerScore()` in the `PlayerController`
-3. It updates the PlayerScore in the CharacterOverlay widget through the HUD
-4. The GameMode checks win conditions
-5. When the player or the base are attacked, the GameMode checks defeat conditions
+3. It updates the `PlayerScore` in the `CharacterOverlay` widget through the `HUD`
+4. The `GameMode` checks win conditions
+5. When the player or the base are attacked, the `GameMode` checks defeat conditions
