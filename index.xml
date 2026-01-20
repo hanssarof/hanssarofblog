@@ -14,7 +14,7 @@
       
       <guid>https://blog.desert-defender.com/posts/25---terrain-material-v2-changing-light-again-trusting-nanite-and-lumen-for-rendering-settings/</guid>
       
-      <description></description>
+      <description>&lt;p&gt;J&amp;rsquo;ai décidé encore une fois de retravailler l&amp;rsquo;environnement de mon jeu.&lt;/p&gt;</description>
       
     </item>
     
@@ -133,6 +133,18 @@
       <guid>https://blog.desert-defender.com/posts/1---project-setup/</guid>
       
       <description></description>
+      
+    </item>
+    
+    <item>
+      <title>0 - From idea to prototype</title>
+      <link>https://blog.desert-defender.com/posts/0---from-idea-to-prototype/</link>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.desert-defender.com/posts/0---from-idea-to-prototype/</guid>
+      
+      <description>&lt;h2 id=&#34;the-start&#34;&gt;The start&lt;/h2&gt;
+&lt;p&gt;Hi, my name is Hans, thank you for visiting this website! I am writing this blog to share my progress on the indie game I am working on - Desert Defender. My goal is to go through all the development steps and release the game on Steam. I am working with the Unreal Engine 5 and using both C++ and blueprints. I am not a professional programmer, nor a 3D artist: just a random but passionate guy trying his best at game develpment as a hobby while having a full time job and a social life.&lt;/p&gt;</description>
       
     </item>
     
