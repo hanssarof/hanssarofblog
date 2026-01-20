@@ -53,7 +53,7 @@
         },
         "datePublished": "2025-03-20",
         "description": "",
-        "wordCount":  147 ,
+        "wordCount":  265 ,
         "mainEntityOfPage": "True",
         "dateModified": "2025-03-20",
         "image": {
@@ -199,7 +199,16 @@ stroke-linejoin="round" class="feather feather-home">
 <li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/saving-and-loading-your-game-in-unreal-engine">Saving and Loading Your Game</a> also from Unreal documentation</li>
 <li><a href="https://cedric-neukirchen.net/docs/multiplayer-compendium/common-classes/">Gameplay Framework</a> blog posts by Cedric Neukirchen</li>
 </ul>
-<p>After digesting all this information, here is what I have decided to do for my game:</p>
+<p>After digesting all this information, and with the help of ChatGPT, here is what I have decided to do for my game:</p>
+<ul>
+<li>A <code>SaveGame</code> class to be able the pass player info from on game to another</li>
+<li>A <code>GameInstance</code> class managing the loading/saving system and being the source for global variables like <code>PlayerName</code>, <code>PlayerScore</code> and <code>PlayerCoins</code></li>
+<li>The <code>GameMode</code> class managing play rules, win or defeat conditions based on player health, score and so on</li>
+<li>The <code>PlayerController</code> class being responsible to update the <code>HUD</code> and interacting with the <code>GameMode</code> and the <code>GameInstance</code></li>
+</ul>
+<p>To fit this &ldquo;framework&rdquo; I had to rework some of my classes as the <code>PlayerController</code> and the <code>GameMode</code>. Here is a detailed example of how my classes interact with each other in the shooting snakes workflow:</p>
+<p style="text-align:center;"><img src="/images/Pasted%20image%2020250329114533.png" alt="Image Description"></p>
+<p style="text-align:center; font-style:italic;">An example of my new framework implementation.</p>
 
             </div>
         </article></main>
@@ -225,7 +234,7 @@ stroke-linejoin="round" class="feather feather-home">
 </a>
 </div>
     <small class="footer_copyright">
-        © 2025 Prokrastination Studio.
+        © 2026 Prokrastination Studio.
         Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
     </small>
 </footer><a href="#" title="Go to top" id="totop">

@@ -10,4 +10,13 @@ I took couple of days to read some documentation, read articles, watch tutorials
 - [Saving and Loading Your Game](https://dev.epicgames.com/documentation/en-us/unreal-engine/saving-and-loading-your-game-in-unreal-engine) also from Unreal documentation
 - [Gameplay Framework](https://cedric-neukirchen.net/docs/multiplayer-compendium/common-classes/) blog posts by Cedric Neukirchen
 
-After digesting all this information, here is what I have decided to do for my game:
+After digesting all this information, and with the help of ChatGPT, here is what I have decided to do for my game:
+- A `SaveGame` class to be able the pass player info from on game to another
+- A `GameInstance` class managing the loading/saving system and being the source for global variables like `PlayerName`, `PlayerScore` and `PlayerCoins`
+- The `GameMode` class managing play rules, win or defeat conditions based on player health, score and so on
+- The `PlayerController` class being responsible to update the `HUD` and interacting with the `GameMode` and the `GameInstance`
+
+To fit this "framework" I had to rework some of my classes as the `PlayerController` and the `GameMode`. Here is a detailed example of how my classes interact with each other in the shooting snakes workflow:
+
+<p style="text-align:center;"><img src="/images/Pasted%20image%2020250329114533.png" alt="Image Description"></p>
+<p style="text-align:center; font-style:italic;">An example of my new framework implementation.</p>
