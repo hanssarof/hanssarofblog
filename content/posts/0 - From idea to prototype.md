@@ -32,8 +32,7 @@ My new project is not:
 - No shields
 - No complicated system of points, combos, or anything like that
 
-## The Prototype
-
+## The prototype
 To quickly test whether my idea could be fun, engaging, and above all doable, I started by making a prototype. To avoid wasting time, I reduced the number of features even more, focusing on the core idea:
 - A solo game
 - A third-person shooter because I prefer that camera angle
@@ -41,3 +40,16 @@ To quickly test whether my idea could be fun, engaging, and above all doable, I 
 - ~~A zombie-style mode with a point to defend and waves of enemies to fight~~ -> just basic ennemies, no waves in the prototype
 - ~~3 or 4 enemy types at most~~ -> just basic ennemies, no waves in the prototype
 - ~~Three to five levels maximum~~ -> a very basic level for test purposes
+
+With this in mind, I spend two to three days making this prototype. I made very basic assets of a fox and a snake in Blender. Then I imported them into Unreal and, using blueprints, I quickly got a third person character and functional enemies.
+
+<p style="text-align:center;"><img src="/images/Pasted%20image%2020260121215510.png" alt="Image Description"></p>
+<p style="text-align:center; font-style:italic;">My basic assets, such a fine piece of art</p>
+
+I also added the following elements:
+- Projectiles (fired from the center of the character) that destroy the snakes
+- A base for the enemies to attack
+- Two types of enemies with some snakes following the player and others going straight to the base
+- And finally, a top left widget that counts snakes killed and a crosshair in the middle of the screen
+
+<p style="text-align:center;"><img src="/images/2024-09-28_19-14-47-ezgif.com-crop.gif" alt="Image Description"></p><p style="text-align:center; font-style:italic;">The result: a playable prototype</p>
